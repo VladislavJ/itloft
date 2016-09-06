@@ -1,0 +1,19 @@
+.footer{
+	height: 25px;
+	background-color: rgb( 11, 35, 44 );
+	&__container{
+		height: 100%;
+	}
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+	&__copy{
+		font-family: "OpenSans-Regular";
+		font-size: 11px;
+		color: #4c575c;
+		margin: 0;
+	}
+}

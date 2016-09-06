@@ -1,0 +1,84 @@
+.info{
+	background: url(../img/bg.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	&__container{
+		height: 700px;
+		position: relative;
+	}
+	&__bg{
+		background: url(../img/bg_container.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: -40px 254px;
+		background-size: contain;
+		position: absolute;
+		height: 0;
+		width: 75em;
+		padding-bottom: 59.8%;
+		bottom: 0;
+	}
+	&__wrapper{
+		width: 400px;
+		position: absolute;
+		right: -90px;
+		top: 160px;
+	}
+	&__title{
+		font-family: "OpenSans-Bold";
+		color: #1a5064;
+		font-size: 36px;
+		margin: 10px 0;
+	}
+	&__text{
+		font-family: "OpenSans-Regular";
+		color: #1e2226;
+		font-size: 14px;
+	}
+	&__block-search{
+		margin-top: 75px;
+	}
+	&__question{
+		font-family: "OpenSans-Semibold";
+		font-size: 18px;
+		color: #fff;
+	}
+	&__search{
+		font-family: "OpenSans-LightItalic";
+		color: #464f58;
+		font-size: 14px;
+		border: 1px solid #464f58;
+		border-radius: 5px;
+		padding-left: 15px;
+		height: 40px;
+		width: 288px;
+		border-radius: 5px 0 0 5px;
+		float: left;
+	}
+	&__button-decision{
+		font-family: "OpenSans-Semibold";
+		color: #fff;
+		font-size: 18px;
+		width: 112px;
+		height: 40px;
+		border: 0;
+		border-radius: 0 5px 5px 0;
+		background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+		background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+	}
+}
+.Прямоугольник__скругл__углы_1 {
+  border-width: 1px;
+  border-color: rgb( 70, 79, 88 );
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb( 255, 255, 255 );
+  position: absolute;
+  left: 439px;
+  top: 390px;
+  width: 288px;
+  height: 37px;
+  z-index: 29;
+}
+
