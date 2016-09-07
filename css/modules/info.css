@@ -1,28 +1,24 @@
 .info{
 	background: url(../img/bg.svg);
-	background-size: cover;
 	background-repeat: no-repeat;
-	height: 700px;
+	height: 675px;
 	&__container{
-		height: 700px;
+		height: 675px;
 		position: relative;
 	}
 	&__bg{
 		background: url(../img/bg_container.svg);
-		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: -40px 254px;
-		background-size: contain;
+		background-position: 0px 267px;
 		position: absolute;
-		height: 0;
-		width: 75em;
-		padding-bottom: 59.8%;
-		bottom: 0;
+		height: 700px;
+		width: inherit;
+		background-size: contain;
 	}
 	&__wrapper{
 		width: 400px;
 		position: absolute;
-		right: -90px;
+		left: 0;
 		top: 160px;
 	}
 	&__title{
@@ -68,17 +64,3 @@
 		background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
 	}
 }
-.Прямоугольник__скругл__углы_1 {
-  border-width: 1px;
-  border-color: rgb( 70, 79, 88 );
-  border-style: solid;
-  border-radius: 5px;
-  background-color: rgb( 255, 255, 255 );
-  position: absolute;
-  left: 439px;
-  top: 390px;
-  width: 288px;
-  height: 37px;
-  z-index: 29;
-}
-

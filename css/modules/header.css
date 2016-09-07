@@ -4,6 +4,7 @@
 		height: 70px;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 	&__end{
 		display: flex;
@@ -32,4 +33,7 @@
 		}
 	}
 }
-
+body{
+	min-width: 1000px;
+}
+.header, .footer, .solution, .info{ overflow: hidden; }
