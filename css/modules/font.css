@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Newcastle-BasicClean";
+    src: url("../fonts/newcastle/Newcastle-BasicClean.eot");
+    src: url("../fonts/newcastle/Newcastle-BasicClean.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/newcastle/Newcastle-BasicClean.woff") format("woff"),
+    url("../fonts/newcastle/Newcastle-BasicClean.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/opensans/OpenSans-Regular.eot");
+    src: url("../fonts/opensans/OpenSans-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/opensans/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url("../fonts/opensans/OpenSans-LightItalic.eot");
+    src: url("../fonts/opensans/OpenSans-LightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/opensans/OpenSans-LightItalic.woff") format("woff"),
+    url("../fonts/opensans/OpenSans-LightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url("../fonts/opensans/OpenSans-Semibold.eot");
+    src: url("../fonts/opensans/OpenSans-Semibold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/opensans/OpenSans-Semibold.woff") format("woff"),
+    url("../fonts/opensans/OpenSans-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/opensans/OpenSans-Bold.eot");
+    src: url("../fonts/opensans/OpenSans-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/opensans/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/opensans/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,8 @@
+@import 'normalize.css';
+@import 'modules/header.css';
+@import 'modules/info.css';
+@import 'modules/solution.css';
+@import 'modules/footer.css';
+@import 'modules/font.css';
+@import 'modules/bootstrap_min_grid.css';
+
