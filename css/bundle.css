@@ -494,7 +494,7 @@ body{
   width: 400px;
   position: absolute;
   left: 0;
-  top: 160px;
+  top: 178px;
 }
 .info__title{
   font-family: "OpenSans-Bold";
@@ -796,11 +796,9 @@ body{
   margin: 0;
 }
 .solution__item{
-  font-family: "OpenSans-Semibold";
+  font-family: "OpenSans-Regular";
   color: #1e2226;
   list-style-type: none;
-  border: 1px solid transparent;
-  border-radius: 5px;
   margin-bottom: 25px;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -808,9 +806,44 @@ body{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+}
+.solution__item:after{
+  content: '';
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  background: url(../img/close.png);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+}
+.solution__item:hover:after{
+  opacity: 1;
 }
 .solution__item:last-child{
   margin-bottom: 0;
+}
+.solution__item:hover .solution__arrow{
+  opacity: 1;
+}
+.solution__item:hover .solution__border{
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #afb0b0;
+  border: 1px solid #acb0b4;
+  border-radius: 5px;
+}
+.solution__border{
+  font-family: "OpenSans-Semibold";
+  width: 40px;
+  height: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  line-height: 17px;
 }
 .solution__button-groups{
   display: -webkit-box;
@@ -855,13 +888,22 @@ body{
   background-image: -webkit-linear-gradient( left, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
   background-image: linear-gradient( 90deg, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
 }
-.solution .block{
-  border: 1px solid #acb0b4;
-  color: #acb0b4;
-}
 .solution__weight-column{
   width: 80px;
   text-align: center;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.solution__arrow{
+  opacity: 0;
 }
 .solution__name-column{
   width: 320px;
