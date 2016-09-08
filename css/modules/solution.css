@@ -204,9 +204,10 @@
 		list-style-type: none;
 		margin-bottom: 25px;
 		cursor: pointer;
-		transition: 0.3s;
+		transition: 0.25s;
 		display: flex;
 		position: relative;
+		background: #f5f8f9;
 		&:after{
 			content: '';
 			position: absolute;
@@ -228,7 +229,7 @@
 			opacity: 1;
 		}
 		&:hover .solution__border{
-			transition: 0.3s;
+			transition: 0.25s;
 			color: #afb0b0;
 			border: 1px solid #acb0b4;
 			border-radius: 5px;
@@ -243,6 +244,7 @@
 		display: block;
 		margin: auto;
 		line-height: 17px;
+		transition: 0.25s;
 	}
 	&__button-groups{
 		display: flex;
