@@ -159,7 +159,7 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 			</div>
 			<div class="solution__button-groups">
 				<button class="solution__button-clear">Очистить</button>
-				<button class="solution__button-save">Сохранить</button>
+				<button id="save" class="solution__button-save">Сохранить</button>
 			</div>
 		</div>
 	</section>
@@ -173,14 +173,35 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 			</div>
 		</div>
 	</footer>
+	<div class="popup">
+		<div class="popup__wrapper">
+			<img class="popup__close" id="popup__close" src="img/popup-close.png" alt="">
+			<h3 class="popup__title">Хотите сохранить это сравнение?</h3>
+			<div class="popup__groups">
+				<div class="popup__block">
+					<label class="popup__name" for="email">E-mail</label>
+					<input class="popup__input" type="text" placeholder="Введите e-mail" id="email">
+				</div>
+				<div class="popup__block">
+					<label class="popup__name" for="password">Пароль</label>
+					<input class="popup__input" type="password" placeholder="Введите пароль" id="password">
+				</div>
+				<button class="popup__button">Войти</button>
+			</div>
+			<p class="popup__text">*если у Вас нет аккаунта, <span class="popup__span">зарегестрируйтесь</span></p>
+		</div>
+	</div>
 
-<!-- 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
 
 	<script>
-		$('.solution__list-weight >.solution__item').on("click", function () {
-			$(this).toggleClass('block');
+		$('#save').on("click", function () {
+			$('.popup').addClass('opacity');
 		});
-	</script> -->
+		$('#popup__close').on("click", function () {
+			$('.popup').removeClass('opacity');
+		});
+	</script>
 
 
 </body>
