@@ -83,8 +83,12 @@
 		font-size: 14px;
 		text-align: center;
 	}
-	&__span{
+	&__link{
 		font-family: "OpenSans-Semibold";
+		color: #1e2226;
+		&:hover, &:focus, &:active{
+			text-decoration: none;
+		}
 	}
 }
 .visibility{

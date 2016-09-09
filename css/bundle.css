@@ -1056,8 +1056,12 @@ body{
   font-size: 14px;
   text-align: center;
 }
-.popup-save__span{
+.popup-save__link{
   font-family: "OpenSans-Semibold";
+  color: #1e2226;
+}
+.popup-save__link:hover, .popup-save__link:focus, .popup-save__link:active{
+  text-decoration: none;
 }
 .visibility{
 	display: -webkit-box;
