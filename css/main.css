@@ -1,4 +1,5 @@
 @import 'normalize.css';
+/*@import '../libs/font-awesome/css/font-awesome.min.css';*/
 @import 'modules/header.css';
 @import 'modules/info.css';
 @import 'modules/solution.css';
@@ -7,4 +8,5 @@
 @import 'modules/reg.css';
 @import 'modules/font.css';
 @import 'modules/bootstrap_min_grid.css';
+
 

@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Easy_Decisions</title>
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bundle.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
 			<div class="header__wrapper">
 				<h1 class="header__logo">Easy Decisions</h1>
 				<div class="header__block">
-					<a class="header__link" href="#">Регестрация</a>
+					<a class="header__link" id="registr" href="#">Регистрация</a>
 					<span class="header__slash">/</span>
 					<a class="header__link" href="">Вход</a>
 				</div>
@@ -44,7 +45,7 @@
 						<div class="solution__btn-green">Добавить</div>
 					</div>
 					<div class="solution__hotkey-green">
-						<img src="img/green-arr.png" alt="">
+						<img src="svg/small-green.svg" alt="">
 					</div>
 				</div>
 				<div class="cm">
@@ -58,7 +59,7 @@
 					</div>
 					<div class="solution__hotkey-red">
 						shifht <span class="solution__span"> + </span>
-						<img src="img/red-arr.png" alt="">
+						<img src="svg/small-red.svg" alt="">
 					</div>
 				</div>
 			</div>
@@ -79,25 +80,25 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 					<ul class="solution__list-weight">
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта один</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта два</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта три</div>
 						</li>
@@ -116,41 +117,41 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 					<ul class="solution__list-weight">
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта один</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта два</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта три</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта четыре</div>
 						</li>
 						<li class="solution__item">
 							<div class="solution__weight-column">
-								<img class="solution__arrow" src="img/arr-left.png" alt="">
+								<i class="fa fa-angle-left solution__arrow" aria-hidden="true"></i>
 								<span class="solution__border">1</span>
-								<img class="solution__arrow" src="img/arr-right.png" alt="">
+								<i class="fa fa-angle-right solution__arrow" aria-hidden="true"></i>
 							</div>
 							<div class="solution__name-column">Название пункта пять</div>
 						</li>
@@ -175,6 +176,7 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 	</footer>
 	<div class="reg">
 		<div class="reg__wrapper">
+			<img class="reg__close" id="reg__close" src="svg/close_icon.svg" alt="">
 			<div class="reg__top">
 				<h3 class="reg__title">Easy Decisions</h3>
 				<p class="reg__text">Регестрация</p>
@@ -183,21 +185,29 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 				<div class="reg__column-left">
 					<p class="reg__name-column">С помощью e-mail</p>
 					<ul class="reg__list-email">
-						<li class="reg__item">
+						<li class="reg__item-email">
 							<label for="login">Логин</label>
-							<input class="reg__input"  id="login" placeholder="Введите Логин" type="text">
+							<div class="reg__input-wrp">
+								<input class="reg__input"  id="login" placeholder="Введите Логин" type="text">
+							</div>
 						</li>
-						<li class="reg__item">
+						<li class="reg__item-email">
 							<label for="email">E-mail</label>
-							<input class="reg__input" id="email" placeholder="Введите E-mail" type="text">
+							<div class="reg__input-wrp">
+								<input class="reg__input" id="email" placeholder="Введите E-mail" type="text">
+							</div>
 						</li>
-						<li class="reg__item">
+						<li class="reg__item-email">
 							<label for="password">Пароль</label>
-							<input class="reg__input" id="password" type="text" placeholder="Введите пароль">
+							<div class="reg__input-wrp">
+								<input class="reg__input" id="password" type="text" placeholder="Введите пароль">
+							</div>
 						</li>
-						<li class="reg__item">
+						<li class="reg__item-email">
 							<label for="password-repeat">Повторите пароль</label>
-							<input class="reg__input" id="password-repeat" type="text" placeholder="Повторите пароль">
+							<div class="reg__input-wrp">
+								<input class="reg__input" id="password-repeat" type="text" placeholder="Повторите пароль">
+							</div>
 						</li>
 					</ul>
 					<button class="reg__button">Регестрация</button>
@@ -205,14 +215,14 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 				<div class="reg__column-right">
 					<p class="reg__name-column">Через социальные сети</p>
 					<ul class="reg__list-social">
-						<li class="reg__item">
-							<a class="reg__link reg__facebook" href="">Facebook</a>
+						<li class="reg__item-social">
+							<a class="reg__link reg__facebook" href="https://www.facebook.com/">Facebook</a>
 						</li>
-						<li class="reg__item">
-							<a class="reg__link reg__google" href="">Google +</a>
+						<li class="reg__item-social">
+							<a class="reg__link reg__google" href="https://www.google.com">Google +</a>
 						</li>
-						<li class="reg__item">
-							<a class="reg__link reg__github" href="">GitHub</a>
+						<li class="reg__item-social">
+							<a class="reg__link reg__github" href="https://github.com/">GitHub</a>
 						</li>
 					</ul>
 				</div>
@@ -246,6 +256,12 @@ background-image: -webkit-linear-gradient( 0deg, rgb( 60, 127, 17 ) 0%, rgb( 56,
 		});
 		$('#popup-save__close').on("click", function () {
 			$('.popup-save').removeClass('visibility');
+		});
+		$('#registr').on("click", function () {
+			$('.reg').addClass('visibility');
+		});
+		$('#reg__close').on("click", function () {
+			$('.reg').removeClass('visibility');
 		});
 	</script>
 
