@@ -35,6 +35,7 @@
 		height: 40px;
 		border: 0;
 		border-radius: 5px;
+		background-image: linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
 		background-image: -moz-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
 		background-image: -webkit-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
 		&:after{
@@ -48,6 +49,8 @@
 		}
 		&:hover{
 			background-image: linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
+			background-image: -moz-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
+			background-image: -webkit-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
 		}
 	}
 	&__btn-red{
@@ -68,6 +71,7 @@
 		height: 40px;
 		border: 0;
 		border-radius: 5px;
+		background-image: -linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
 		background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
 		background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
 		&:after{
@@ -80,6 +84,8 @@
 			height: 16px;
 		}
 		&:hover{
+			background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+			background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
 			background-image: linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
 		}
 	}
@@ -206,7 +212,7 @@
 		&:after{
 			content: '';
 			position: absolute;
-			right: 25px;
+			right: 5px;
 			top: 15px;
 			background: url(../img/close.png);
 			background-repeat: no-repeat;
