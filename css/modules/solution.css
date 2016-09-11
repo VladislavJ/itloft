@@ -35,9 +35,9 @@
 		height: 40px;
 		border: 0;
 		border-radius: 5px;
-		background-image: linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
-		background-image: -moz-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
-		background-image: -webkit-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
+		background-image: linear-gradient(to top, #36780e 0%, #36780e 1%, #5ba21e 100%);
+		background-image: -webkit-linear-gradient(to top, #36780e 0%, #36780e 1%, #5ba21e 100%);
+		background-image: -moz-linear-gradient(to top, #36780e 0%, #36780e 1%, #5ba21e 100%);
 		&:after{
 			position: absolute;
 			right: 16px;
@@ -48,9 +48,9 @@
 			height: 16px;
 		}
 		&:hover{
-			background-image: linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
-			background-image: -moz-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
-			background-image: -webkit-linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
+			background-image: linear-gradient(to top, #5ba21e 0%, #36780e 99%, #36780e 100%);
+			background-image: -webkit-linear-gradient(to top, #5ba21e 0%, #36780e 99%, #36780e 100%);
+			background-image: -moz-linear-gradient(to top, #5ba21e 0%, #36780e 99%, #36780e 100%);
 		}
 	}
 	&__btn-red{
@@ -71,9 +71,9 @@
 		height: 40px;
 		border: 0;
 		border-radius: 5px;
-		background-image: -linear-gradient( 90deg, rgb( 91, 162, 30 ) 0%, rgb( 54, 120, 14 ) 98.535%);
-		background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
-		background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+		background-image: linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
+		background-image: -webkit-linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
+		background-image: -moz-linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
 		&:after{
 			position: absolute;
 			right: 16px;
@@ -84,9 +84,9 @@
 			height: 16px;
 		}
 		&:hover{
-			background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
-			background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
-			background-image: linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+			background-image: linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
+			background-image: -webkit-linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
+			background-image: -moz-linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
 		}
 	}
 	&__hotkey-green{
@@ -257,33 +257,32 @@
 		font-family: "OpenSans-Semibold";
 		color: #1e2226;
 		font-size: 18px;
-		background-image: linear-gradient( 90deg, rgb( 191, 202, 206 ) 0%, rgb( 226, 235, 240 ) 98.535%);
-		background-image: -moz-linear-gradient( 90deg, rgb( 191, 202, 206 ) 0%, rgb( 226, 235, 240 ) 98.535%);
-		background-image: -webkit-linear-gradient( 90deg, rgb( 191, 202, 206 ) 0%, rgb( 226, 235, 240 ) 98.535%);
+		background-image: linear-gradient(to top, #e2ebf0 0%, #e2ebf0 1%, #bfcace 100%);
 		border-radius: 5px;
 		width: 144px;
 		height: 44px;
 		border: 0;
 		margin: 0 10px;
 		&:hover{
-			background-image: linear-gradient( 90deg, rgb( 191, 202, 206 ) 0%, rgb( 226, 235, 240 ) 98.535%);
+			background-image: linear-gradient(to top, #bfcace 0%, #e2ebf0 99%, #e2ebf0 100%);
 		}
 	}
 	&__button-save{
 		font-family: "OpenSans-Semibold";
 		color: #fff;
 		font-size: 18px;
-		background-image: linear-gradient( 90deg, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
-		background-image: -moz-linear-gradient( 90deg, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
-		background-image: -webkit-linear-gradient( 90deg, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
+		background-image: linear-gradient(to top, #083b4f 0%, #1b7b9c 100%);
+		background-image: -webkit-linear-gradient(to top, #083b4f 0%, #1b7b9c 100%);
+		background-image: -moz-linear-gradient(to top, #083b4f 0%, #1b7b9c 100%);
 		border-radius: 5px;
 		width: 144px;
 		height: 44px;
 		border: 0;
 		margin: 0 10px;
 		&:hover{
-			background-image: linear-gradient( 90deg, rgb( 8, 59, 79 ) 0%, rgb( 27, 123, 156 ) 100%);
-			
+			background-image: linear-gradient(to top, #1b7b9c 0%, #083b4f 100%);
+			background-image: -webkit-linear-gradient(to top, #1b7b9c 0%, #083b4f 100%);
+			background-image: -moz-linear-gradient(to top, #1b7b9c 0%, #083b4f 100%);
 		}
 	}
 	&__weight-column{

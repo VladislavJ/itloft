@@ -60,7 +60,13 @@
 		height: 40px;
 		border: 0;
 		border-radius: 0 5px 5px 0;
-		background-image: -moz-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
-		background-image: -webkit-linear-gradient( 90deg, rgb( 210, 50, 12 ) 0%, rgb( 245, 49, 11 ) 0%, rgb( 255, 44, 44 ) 0%, rgb( 223, 36, 36 ) 100%);
+		background-image: linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
+		background-image: -webkit-linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
+		background-image: -moz-linear-gradient(to top, #df2424 0%, #ff2c2c 100%);
+		&:hover{
+			background-image: linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
+			background-image: -webkit-linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
+			background-image: -moz-linear-gradient(to top, #ff2c2c 0%, #df2424 100%);
+		}
 	}
 }
