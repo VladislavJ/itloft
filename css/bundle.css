@@ -496,7 +496,7 @@ body{
   width: 400px;
   position: absolute;
   left: 0;
-  top: 178px;
+  top: 130px;
 }
 .info__title{
   font-family: "OpenSans-Bold";
@@ -510,7 +510,7 @@ body{
   font-size: 14px;
 }
 .info__block-search{
-  margin-top: 75px;
+  margin-top: 120px;
 }
 .info__question{
   font-family: "OpenSans-Semibold";

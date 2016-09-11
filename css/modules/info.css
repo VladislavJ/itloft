@@ -19,7 +19,7 @@
 		width: 400px;
 		position: absolute;
 		left: 0;
-		top: 178px;
+		top: 130px;
 	}
 	&__title{
 		font-family: "OpenSans-Bold";
@@ -33,7 +33,7 @@
 		font-size: 14px;
 	}
 	&__block-search{
-		margin-top: 75px;
+		margin-top: 120px;
 	}
 	&__question{
 		font-family: "OpenSans-Semibold";
