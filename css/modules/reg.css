@@ -48,6 +48,16 @@
 	}
 	&__item-social{
 		margin-bottom: 22px;
+		position: relative;
+		&:after{
+			content: '';
+			position: absolute;
+			height: 40px;
+			width: 1px;
+			background-image: linear-gradient( to bottom, #fff 0%, transparent 100%);
+			top: 0px;
+			left: 40px;
+		}
 		&:last-child{
 			margin-bottom: 0;
 		}
@@ -146,7 +156,7 @@
 			background: url(../svg/facebook.svg);
 			width: 16px;
 			height: 30px;
-			left: 0;
+			left: 2px;
 			margin: 0 10px;
 		}
 	}
@@ -160,7 +170,7 @@
 			background-repeat: no-repeat;
 			width: 34px;
 			height: 38px;
-			left: 8px;
+			left: 6px;
 			top: 2px;
 			background-position: 0px;
 		}
@@ -174,7 +184,7 @@
 			background-repeat: no-repeat;
 			width: 26px;
 			height: 26px;
-			left: 6px;
+			left: 7px;
 			top: 7px;
 		}
 	}

@@ -9,24 +9,71 @@
 </head>
 <body>
 	<header class="header">
-		<div class="wrapper">
+		<div class="solution__container">
 			<div class="header__wrapper">
 				<div class="header__left">
 					<h1 class="header__logo">Easy Decisions</h1>
 					<button class="header__button">Решить ещё</button>
 				</div>
 				<div class="header__right">
-					<a class="header__link-username" id="registr" href="#">usename</a>
-					<a class="header__link-exit" href="">Выход</a>
+					<a class="header__link-user" href="#">username</a>
+					<a class="header__link-exit" href="">Вход</a>
 				</div>
 			</div>
 		</div>
 	</header>
 	<section class="decisions">
-		
+		<div class="solution__container">
+			<h3 class="decisions__title">Ваши решения</h3>
+			<div class="decisions__wrapper">
+				<a href="#" class="decisions__default">
+					<img class="decisions__icon" src="svg/brick.svg" alt="">
+					<p class="decisions__text">Решение сравнение номер один</p>
+					<i class="fa fa-caret-down decisions__caret" aria-hidden="true"></i>
+				</a>
+				<a href="#" class="decisions__default">
+					<img class="decisions__icon" src="svg/question_icon.svg" alt="">
+					<p class="decisions__text">Решение сравнение номер один</p>
+					<i class="fa fa-caret-up decisions__caret" aria-hidden="true"></i>
+				</a>
+				<div class="decisions__active">
+					<div class="decisions__container">
+						<div class="decisions__left">
+							<p class="decisions__paragraph-green"><span class="decisions__span-green">5</span><span class="decisions__plus"></span>Вес всех плюсов</p>
+							<ul class="decisions__list">
+								<li class="decisions__item">Название пункта один</li>
+								<li class="decisions__item">Название пункта два</li>
+								<li class="decisions__item">Название пункта три</li>
+								<li class="decisions__item">Название пункта четыре</li>
+								<li class="decisions__item">Название пункта пять</li>
+							</ul>
+						</div>
+						<div class="decisions__right">
+							<p class="decisions__paragraph-red"><span class="decisions__span-green">5</span><span class="decisions__minus"></span>Вес всех минусов</p>
+							<ul class="decisions__list">
+								<li class="decisions__item">Название пункта один</li>
+								<li class="decisions__item">Название пункта два</li>
+								<li class="decisions__item">Название пункта три</li>
+								<li class="decisions__item">Название пункта четыре</li>
+								<li class="decisions__item">Название пункта пять</li>
+							</ul>
+						</div>
+					</div>
+					<div class="decisions__button-groups">
+						<button class="decisions__button-hide">Скрыть</button>
+						<button class="decisions__button-change">Изменить</button>
+					</div>
+				</div>
+				<a href="#" class="decisions__default">
+					<img class="decisions__icon" src="svg/check.svg" alt="">
+					<p class="decisions__text">Решение сравнение номер один</p>
+					<i class="fa fa-caret-down decisions__caret" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
 	</section>
 	<footer class="footer">
-		<div class="wrapper footer__container">
+		<div class="solution__container footer__container">
 			<div class="footer__wrapper">
 				<p class="footer__copy">(С) Все права защищены</p>
 				<a href="main.html">

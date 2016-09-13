@@ -2,6 +2,7 @@
 	background: url(../img/bg.svg);
 	background-repeat: no-repeat;
 	height: 675px;
+	background-position: -140px 0;
 	&__container{
 		height: 675px;
 		position: relative;
